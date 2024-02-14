@@ -1,22 +1,15 @@
 import React from "react";
 import "./main.css";
-import galleria from "../icons/galleria.svg";
 import testimage from "../icons/testimage.png";
 import data from "../data.json";
-
+import Header from "../header/header";
 const Main = () => {
   const info = data;
   console.log(info);
 
   return (
     <div className="main_Container">
-      <div className="main_Header_Box">
-        <img className="header_Text" src={galleria} alt="headerTextImage" />
-        <a href="slideshow" className="start_Slideshow">
-          START SLIDESHOW
-        </a>
-      </div>
-      <div className="header_Div_Line"></div>
+      <Header />
       <>
         {info.map((item, index) => {
           return (
