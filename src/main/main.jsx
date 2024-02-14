@@ -12,7 +12,7 @@ const Main = () => {
     <div className="main_Container">
       <div className="main_Header_Box">
         <img className="header_Text" src={galleria} alt="headerTextImage" />
-        <a href="#startSlideshow" className="start_Slideshow">
+        <a href="slideshow" className="start_Slideshow">
           START SLIDESHOW
         </a>
       </div>
