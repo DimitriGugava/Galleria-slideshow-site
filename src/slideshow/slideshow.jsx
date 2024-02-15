@@ -17,7 +17,7 @@ const Slideshow = () => {
   return (
     <>
       {showImage ? (
-        <div className="cover_Image_Box">
+        <div className="cover_Image_Box" onClick={() => setShowImage(false)}>
           <div className="closeButton" onClick={() => setShowImage(false)}>
             CLOSE
           </div>

@@ -8,9 +8,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/gallery" element={<Main />} />
           <Route path="/" element={<Main />} />
-          <Route path="/gallery/slideshow" element={<Slideshow />} />
+          <Route path="/:imageID" element={<Slideshow />} />
         </Routes>
       </Router>
     </div>
