@@ -5,8 +5,10 @@ const Header = () => {
   return (
     <>
       <div className="main_Header_Box">
-        <img className="header_Text" src={galleria} alt="headerTextImage" />
-        <a href="/gallery/slideshow" className="start_Slideshow">
+        <a href="/">
+          <img className="header_Text" src={galleria} alt="headerTextImage" />
+        </a>
+        <a href="/slideshow" className="start_Slideshow">
           START SLIDESHOW
         </a>
       </div>
